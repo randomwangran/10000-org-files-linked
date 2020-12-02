@@ -60,3 +60,4 @@ Time to generate files:
 ``` elisp
 emacs -q -l ./testing-environment.el
 ```
+Emacs: 27.1
