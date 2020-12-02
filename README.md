@@ -73,3 +73,6 @@ Emacs: 27.1
 |  File generations |  1 h 36 m  | 
 | Renaming title   |  |
 | index org-roam.db | |
+
+### indexing time
+After seeing the mini-buffer's update, a time counter starts to run. It's rough estimation. 
