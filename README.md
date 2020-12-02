@@ -9,7 +9,8 @@ Niklas Luhmann wrote 90k slip notes during his entire career. The goal is to tes
 - Can I run it smoothly? 
 - If not, what is the level of compromise?
 
-## file generation
+## details
+### file generation
 Put this script under `./10000-org-linked-files`
 
 ```
@@ -44,7 +45,7 @@ $ find . -type f | wc -l
 120003
 ```
 
-## testing with Org-roam
+### testing with Org-roam
 
 ``` elisp
 (require 'package)
