@@ -31,7 +31,12 @@ Time to generate files:
 
 - 10 files: (real    0m4.797s)
 
+check the result:
 
+```sh
+$ find . -type f | wc -l
+120003
+```
 
 ## testing with Org-roam
 
