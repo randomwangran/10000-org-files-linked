@@ -5,8 +5,7 @@ Niklas Luhmann wrote 90k slip notes during his entire career. The goal is to tes
 
 ## motivation
 
-Can I use Org-roam with 100k files? How's the exact feeling under such condition?
-
+Can I use Org-roam with 100k files? Can I run it smoothly? If not, what is the level of compromise?
 ## file generation
 Put this script under `./10000-org-linked-files`
 
