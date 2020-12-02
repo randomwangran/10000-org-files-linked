@@ -27,7 +27,10 @@ Then execute it. The total number of the files will be 10 times larger.
 
 The total number of files will be: 10 * 10000 = 100000 = 100k
 
-On my old machine, it costs:  to generate files.
+Time to generate files:
+
+- 10 files: (real    0m4.797s)
+
 
 
 ## testing with Org-roam
