@@ -27,7 +27,8 @@ Then execute it. The total number of the files will be 10 times larger.
 
 The total number of files will be: 10 * 10000 = 100000 = 100k
 
-On my old machine, it costs: minutes to generate 100k files.
+On my old machine, it costs: `real    13m23.646s` to generate files.
+
 
 ## testing with Org-roam
 
