@@ -3,6 +3,10 @@
 
 Niklas Luhmann wrote 90k slip notes during his entire career. The goal is to test Org-roam under the similar condition.
 
+## motivation
+
+Can I use Org-roam with 100k files? How's the exact feeling under such condition?
+
 ## file generation
 Put this script under `./10000-org-linked-files`
 
