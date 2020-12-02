@@ -90,4 +90,6 @@ Use command:
 
 `M-x org-roam-find-file` (this will frozen emacs) The time is estimated by upper bond, i.e. when I see emacs starts to count the file number.
 
+During executing, I find `find` command is being used from `top`, but the cpu usage is only 2%.
+
 After seeing the mini-buffer's update, a time counter starts to run. It's a rough estimation. 
