@@ -2,7 +2,7 @@
 (add-to-list 'package-archives (cons "melpa" "https://melpa.org/packages/") t)
 (package-initialize)
 (require 'use-package)
-
+(use-package org)
 (use-package ivy)
 
 (use-package org-roam
