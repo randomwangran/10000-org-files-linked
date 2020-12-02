@@ -29,8 +29,7 @@ The total number of files will be: 10 * 10000 = 100000 = 100k
 
 Time to generate files:
 
-- 10 files: (real    0m4.797s)
-- 100k files: 01:36:54
+It costs 1 hour and 36 minutes to generate 100k files.
 
 check the result:
 
