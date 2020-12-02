@@ -79,7 +79,7 @@ Emacs: 27.1
 | Action      | Time    | 
 | :------------- | :----------: |
 |  File generations |  1 h 36 m  | 
-| Renaming title   |  |
+| Renaming title   | 1 h 59 m  |
 | index org-roam.db | |
 
 ### indexing time
