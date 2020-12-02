@@ -75,4 +75,4 @@ Emacs: 27.1
 | index org-roam.db | |
 
 ### indexing time
-After seeing the mini-buffer's update, a time counter starts to run. It's rough estimation. 
+After seeing the mini-buffer's update, a time counter starts to run. It's a rough estimation. 
