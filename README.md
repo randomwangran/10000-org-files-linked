@@ -92,4 +92,6 @@ Use command:
 
 During executing, I find `find` command is being used from `top`, but the cpu usage is only 2%.
 
+- after 1 hour 25 m, `find` no longer exists instead `emacs-27.1` is being executed
+
 After seeing the mini-buffer's update, a time counter starts to run. It's a rough estimation. 
