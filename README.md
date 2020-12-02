@@ -70,9 +70,7 @@ $ find . -type f | wc -l
               (("C-c n i" . org-roam-insert))))
 ```
 
-``` elisp
-emacs -q -l ./testing-environment.el
-```
+
 Emacs: 27.1
 
 ## Data
@@ -83,4 +81,13 @@ Emacs: 27.1
 | index org-roam.db | |
 
 ### indexing time
+After loading emacs with this:
+`emacs -q -l ./testing-environment.el`
+
+Make sure `org-roam.db` deleted.
+
+Use command:
+
+`M-x org-roam-find-file` 
+
 After seeing the mini-buffer's update, a time counter starts to run. It's a rough estimation. 
