@@ -27,7 +27,7 @@ Then execute it. The total number of the files will be 10 times larger.
 
 The total number of files will be: 10 * 10000 = 100000 = 100k
 
-On my old machine, it cost: minutes to generate 100k files.
+On my old machine, it costs: minutes to generate 100k files.
 
 ## testing with Org-roam
 
@@ -51,4 +51,8 @@ On my old machine, it cost: minutes to generate 100k files.
                ("C-c n g" . org-roam-graph-show))
               :map org-mode-map
               (("C-c n i" . org-roam-insert))))
+```
+
+``` elisp
+emacs -q -l ./testing-environment.el
 ```
