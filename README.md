@@ -8,6 +8,7 @@ Niklas Luhmann wrote 90k slip notes during his entire career. The goal is to tes
 - Can I use Org-roam with 100k files?
 - Can I run it smoothly? 
 - If not, what is the level of compromise?
+- What is the latency when create a new note at 100k files?
 
 ## details
 ### file generation
