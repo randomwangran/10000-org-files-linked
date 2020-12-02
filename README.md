@@ -88,6 +88,6 @@ Make sure `org-roam.db` deleted.
 
 Use command:
 
-`M-x org-roam-find-file` 
+`M-x org-roam-find-file` (this will frozen emacs) The time is estimated by upper bond, i.e. when I see emacs starts to count the file number.
 
 After seeing the mini-buffer's update, a time counter starts to run. It's a rough estimation. 
