@@ -1,8 +1,11 @@
-# push-to-the-extreme-100k-file-challenge
+# Org-roam with 100k files
+
 
 Luhman wrote 90k slip notes during his entire career. The goal is to test Org-roam under the similar condition.
 
-Put this script under ./10000-org-linked-files
+## file generation
+Put this script under `./10000-org-linked-files`
+
 ```
 #!/bin/bash
 
@@ -22,4 +25,8 @@ for f in ori-*.org; do cp -- "$f" "group_10-$f"; done
 
 Then execute it. The total number of the files will be 10 times larger.
 
-10 * 10000 = 100000 = 100k
+The total number of files will be: 10 * 10000 = 100000 = 100k
+
+On my old machine, it cost: minutes to generate 100k files.
+
+## testing with Org-roam
