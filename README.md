@@ -101,5 +101,8 @@ Check size of `org-roam.db` by `ls -alh org-roam.db`
 |  1 h 48 m |  44k  | 
 |  3 h 12 m |  712k  | 
 |  3 h 58 m |  1.2M  | 
+|  4 h 56 m |  1.8M  | 
 
 After seeing the mini-buffer's update, a time counter starts to run. It's a rough estimation. 
+
+After 4 h 56 m, I think it is better to run Emacs run tty to do the job. So I stop it and delete `org-roam.db` at this point. 
