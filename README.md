@@ -126,3 +126,11 @@ Using tty mode to test:
 (org-roam) Processed 9/10 modified files...
 (org-roam) total: Δ10, files-modified: Δ10, ids: Δ0, links: Δ117, tags: Δ0, titles: Δ10, refs: Δ0, deleted: Δ0
 ```
+
+### index db using tty
+
+Size of `org-roam.db` over time:
+
+| Time      | Size    | 
+| :------------- | :----------: |
+|  12 h 21 m |  6.5M  | 
