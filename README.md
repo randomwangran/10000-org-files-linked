@@ -49,18 +49,17 @@ $ find . -type f | wc -l
 ### testing with Org-roam
 
 ``` elisp
-(require 'package)
-(add-to-list 'package-archives (cons "melpa" "https://melpa.org/packages/") t)
-(package-initialize)
 (require 'use-package)
-
+(use-package org)
 (use-package ivy)
 
 (use-package org-roam
   :hook
   (after-init . org-roam-mode)
   :custom
-  (org-roam-directory "~/org/org-roam")
+  ;; (org-roam-directory "./10-file-batch-test")
+  ;; (org-roam-directory "./10-org-linked-files")
+  (org-roam-directory "./10000-org-linked-files")
   (org-roam-completion-system 'ivy)
   :bind (:map org-roam-mode-map
               (("C-c n l" . org-roam)
@@ -68,6 +67,8 @@ $ find . -type f | wc -l
                ("C-c n g" . org-roam-graph-show))
               :map org-mode-map
               (("C-c n i" . org-roam-insert))))
+
+(call-interactively 'org-roam-find-file)
 ```
 
 
