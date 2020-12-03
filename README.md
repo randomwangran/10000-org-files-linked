@@ -94,4 +94,10 @@ During executing, commands are monitor via `top`.
 
 - after 1 hour 25 m, `find` no longer exists instead `emacs-27.1` is being executed
 
+Check size of `org-roam.db` by `ls -alh org-roam.db`
+
+| Time      | Size    | 
+| :------------- | :----------: |
+|  1 h 48 m |  44k  | 
+
 After seeing the mini-buffer's update, a time counter starts to run. It's a rough estimation. 
