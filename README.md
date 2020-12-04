@@ -138,4 +138,5 @@ Size of `org-roam.db` over time:
 |  18 h 00 m |  15M  | 
 |  21 h 51 m |  20M  | 
 |  24 h 00 m |  23M  | 
+|  38 h 06 m |  37M  | 
 
