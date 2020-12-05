@@ -141,7 +141,7 @@ Size of `org-roam.db` over time:
 |  38 h 06 m |  37M  | 
 |  48 h 00 m |  46M  | 
 
-After 58 h 22 m, it indexed over 7460 files. 
+After 58 h 22 m, it indexed over 7460 files. The size of `org-roam.db` is 23G. I did not know why it becomes so large from time 48h to 58h.
 ```
 (org-roam) Processed 7460/120000 modified files...
 ```
