@@ -140,8 +140,21 @@ Size of `org-roam.db` over time:
 |  24 h 00 m |  23M  | 
 |  38 h 06 m |  37M  | 
 |  48 h 00 m |  46M  | 
+|  59 h 37 m |  27G  |
 
-After 58 h 22 m, it indexed over 7460 files. The size of `org-roam.db` is 23G. I did not know why it becomes so large from time 48h to 58h.
+After 58 h 22 m, it indexed over 7460 files. The size of `org-roam.db` is 23G. I do not know why it becomes so large from time 48h to 58h.
+
 ```
-(org-roam) Processed 7460/120000 modified files...
+(org-roam) Processed 7460/120000 modifiked files...
 ```
+
+The index process stop at 59 h 37 m. The last two lines of the log file:
+
+```
+(org-roam) Processed 8598/120000 modified files...
+Query timeout error: "Query timed out", 30
+```
+
+I want to restart the process again to see if it can continue from 8598.
+
+The size of the db increases dramatically to a degree that I do not know why.
