@@ -11,6 +11,7 @@
   :custom
   (org-roam-directory "./10-org-linked-files")
   ;; (org-roam-directory "./10000-org-linked-files")
+  ;;  (setq org-roam-db-location "somewhere")
   (org-roam-completion-system 'ivy)
   :bind (:map org-roam-mode-map
               (("C-c n l" . org-roam)
