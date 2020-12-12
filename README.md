@@ -162,3 +162,7 @@ The size of the db increases dramatically to a degree that I do not know why.
 # 2nd Test
 
 This time, the 100k files to be generated is locatated at `10000-org-max-25-linked-files`. 
+
+## thoughts on performance
+
+If Org-roam not perform good at 100k scale, how about 10k, 30k, or 50k scale?
