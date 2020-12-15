@@ -165,6 +165,17 @@ This time, the 100k files to be generated is locatated at `10000-org-max-25-link
 
 After 97 hours running, the job crushed without log file.
 
+Althoght I can query some data:
+```
+sqlite> select COUNT(*) FROM files;
+120000
+sqlite>  select COUNT(*) FROM titles;
+120000
+```
+I am not sure Org-roam is working.
+
+So, I re-open Emacs loading a minimal environment and `M-x org-roam-find-file`, I will monitor the process.
+
 ## thoughts on performance
 
 If Org-roam not perform good at 100k scale, how about 10k, 30k, or 50k scale?
